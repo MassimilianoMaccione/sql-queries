@@ -16,3 +16,11 @@
 -- The 10 most expensive invoices
 -- SELECT * FROM invoices ORDER BY total DESC LIMIT 10;
 
+-- The 15 most recent invoices
+-- SELECT * FROM invoices ORDER BY total DESC LIMIT 15;
+
+-- The 15 oldest invoices
+-- SELECT * FROM invoices ORDER BY invoice_date LIMIT 15;
+
+-- The 10 most expensive invoices from the US
+SELECT * FROM invoices ORDER BY invoice_date LIMIT 10;
