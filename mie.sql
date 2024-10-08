@@ -23,4 +23,4 @@
 -- SELECT * FROM invoices ORDER BY invoice_date LIMIT 15;
 
 -- The 10 most expensive invoices from the US
-SELECT * FROM invoices ORDER BY invoice_date LIMIT 10;
+SELECT * FROM invoices ORDER BY invoice_date LIMIT 10 WHERE billing_country = USA;
